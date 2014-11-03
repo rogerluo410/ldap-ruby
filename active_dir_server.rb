@@ -68,10 +68,10 @@ end #ReturnObj
 class ActiveDirServer
 
   ### BEGIN CONFIGURATION ###
-  SERVER = 'scrootdc07.vmware.com'   # Active Directory server name or IP
+  SERVER = 'xxx.xxxx.com'   # Active Directory server name or IP
   PORT   = 389                       # Active Directory server port (default 389)
-  BASE   = 'DC=vmware,DC=com'        # Base to search from
-  DOMAIN = 'vmware.com'              # For simplified user@domain format login
+  BASE   = 'DC=xxxx,DC=com'        # Base to search from
+  DOMAIN = 'xxxx.com'              # For simplified user@domain format login
 
   # ATTR_SV is for single valued attributes only. Generated readers will
   # c onvert th e value to a string before returning or calling your Proc.
